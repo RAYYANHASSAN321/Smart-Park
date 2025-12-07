@@ -1,0 +1,32 @@
+lib/
+│── main.dart
+│
+├── models/
+│   ├── user_model.dart
+│   └── parking_model.dart
+│
+├── controllers/
+│   ├── auth_controller.dart
+│   └── parking_controller.dart
+│
+├── views/
+│   ├── auth/
+│   │   ├── login_page.dart
+│   │   └── signup_page.dart
+│   │
+│   ├── user/
+│   │   ├── home_page.dart
+│   │   ├── search_parking_page.dart
+│   │   ├── bookpage.dart
+│   │   └── navigation_page.dart
+│   │
+│   └── admin/
+│       ├── dashboard_page.dart
+│       └── manage_parking_page.dart
+│
+├── widgets/
+│   ├── custom_button.dart
+│   └── custom_textfield.dart
+│
+└── utils/
+    └── app_routes.dart
